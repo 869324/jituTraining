@@ -1,5 +1,6 @@
 body {
-    background-color: lightgray;
+    background: url("rice2.jpg");
+    background-size: cover;
 }
 
 header {
@@ -24,6 +25,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: top;
+    background-color: rgba(211, 211, 211, 0.7);
 }
 
 #time {
@@ -39,5 +41,8 @@ h1 {
 
 #image {
     width: 100vw;
+}
 
+p, li {
+    font-size: 18px;
 }
