@@ -16,12 +16,28 @@ h1 {
     text-align: center;
 }
 
-img {
+#logo {
    border-radius: 100px;
 }
 
-#content {
+#content, #extras {
     display: flex;
     justify-content: space-between;
+    align-items: top;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+#extras {
+    justify-content: space-around;
+}
+
+#image {
+    width: 100vw;
+
 }
